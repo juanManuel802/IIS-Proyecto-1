@@ -1,0 +1,29 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 100;
+}
+.headlist{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    
+    text-align: center;
+    list-style-type: none;
+    padding: 20px;
+    margin: 4px;
+}
+.headlist li{
+    padding: 6px;
+    margin: 4px;
+    text-decoration: none;
+    display: inline;
+}
+.headlist li a{
+    text-decoration: none;
+
+}
