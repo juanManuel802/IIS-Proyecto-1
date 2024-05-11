@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+} 
+/* Despues le digo que es esto de arriba */
 header{
     position: fixed;
     top: 0;
@@ -6,7 +10,7 @@ header{
     background-color: black;
     z-index: 100;
 }
-.headlist{
+.head-list{
 
     display: flex;
     flex-direction: row-reverse;
@@ -17,13 +21,18 @@ header{
     padding: 20px;
     margin: 4px;
 }
-.headlist li{
+.head-list li{
     padding: 6px;
     margin: 4px;
     text-decoration: none;
     display: inline;
 }
-.headlist li a{
+.head-list li a{
     text-decoration: none;
 
+}
+
+video {
+    height: 100%;
+    width: 100%;
 }
