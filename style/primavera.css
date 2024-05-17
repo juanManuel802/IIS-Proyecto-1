@@ -1,24 +1,17 @@
-* {
-    box-sizing: border-box;
-}
-body{
-    
-    background-color: #5bca60b7;
+body{  
+    background-image: url("img/primaverafondopagina.jpg");
+    margin: 0;
 }
 .glass{
-    position: relative;
     height: 100px;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
+    
     border: 1px solid rgba(0, 0, 0, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.329);
 }
 header{
     position: relative;
-    width: 100%;
-    top: 0;
-    left: 0;
     background-color: rgba(158, 202, 176, 0.341);
     z-index: 100;
 }
@@ -35,10 +28,13 @@ header{
     transform: scale(1.2);
     transition: transform 0.2s ease-in-out;
 }
-.video{
+.divimg{
+    height: max-content;
+}
+.divimg img{
     position: relative;
     background-size: contain;
-    top: 50%;
+    top: 9%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -48,10 +44,15 @@ header{
     z-index: 1;
 }
 
+
 .card {
-    position: absolute;
-    top: 70%;
-    left:3%;
+    background: linear-gradient(9deg, rgb(223 126 46 / 52%), rgb(205 152 95 / 28%));
+    backdrop-filter: blur(100px);
+    box-shadow: 0 4px 12px  rgba(0, 0, 0, 0.329);
+    position: relative;
+    bottom: 680px;
+    height: 40rem;
+    background-color: rgba(46, 45, 44, 0);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -61,43 +62,47 @@ header{
 
 
 .titulo2{
-    width: 50%;   
+    width: 45%;   
     text-align: center;
-    font-size: 35px;
-    color: rgb(10, 150, 96);
-    text-shadow: 0 0 4px #8fcebbd3;
+    font-size: 40px;
+    color: rgb(187, 113, 43);
+    text-shadow: 0 0 4px #cf704bea;
     z-index: 3;
     border: solid 2px;
     border-radius: 12px;
     padding: 1px;
-    background-image: url("img/fondoflorazul.avif");
+    background-color: beige;
     background-size: cover;
 }
 #titulo{
     position: absolute;
-    top: 9%;
-    left: 23%;
+    top: 14%;
+    left: 28%;
     text-align: center;
-    font-size: 90px;
-    color: rgba(240, 248, 255, 0.521);
-    text-shadow: 0 0 30px #299a25bd;
+    font-size: 130px;
+    color: rgba(69, 110, 30, 0.89);
+    text-shadow: 0 0 30px #3b8347cc;
     z-index: 3;
+    
 }
 .titulo2 p{
     padding: 4px;
     margin: 9px;
     text-align: center;
-    font-size: 23px;
+    font-size: 30px;
     text-align: justify;
 }
-.image {
+.fotocard {
    
 }
-.image img{
-    width: 410px;
-    height: 410px;
-    border: solid;
-    border-radius: 50%;
+.fotocard img{
+    width: 640px;
+    height: 640px;
+    border-left: solid 10px rgb(185, 100, 31);
+    border-right: solid 10px rgb(192, 104, 31);
+
+    
+    
 }
 
 #h1quees{
