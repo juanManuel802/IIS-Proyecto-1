@@ -1,12 +1,13 @@
 body{  
     position:relative;
     left: 0;
-    background-image: url("img/primaverafondopagina.jpg");
+    background-image: url("img/totalotoño.jpg");
     margin: 0;
     overflow-x:hidden;
+    object-fit: cover;
 }
 .glass{
-   
+    
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(3px);
     
@@ -21,7 +22,7 @@ header{
 .head-list{
     display: flex;
     justify-content: space-evenly;
-   
+    
     list-style-type: none;
     padding: 20px;
     margin: 10px;
@@ -32,14 +33,18 @@ header{
     transition: transform 0.2s ease-in-out;
 }
 .divimg{
-   color: black;
+    height: max-content;
 }
 .divimg img{
     position: relative;
     
+    
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+   
+    
+    
     
 }
 
@@ -61,13 +66,14 @@ header{
 }
 
 
+
 .titulo2{
     width: 45%;   
     text-align: center;
     font-size: 35px;
     color: rgb(187, 113, 43);
     text-shadow: 0 0 4px #cf704bea;
-   
+    
     border: solid 2px;
     border-radius: 12px;
     padding: 1px;
@@ -75,20 +81,20 @@ header{
     
 }
 #tittlecaracteristicas{
-    color: rgb(27, 95, 27);
-    text-shadow: 0 0 4px #1d572b8f;
+    color: rgba(165, 101, 18, 0.911);
+    text-shadow: 0 0 4px rgba(187, 118, 28, 0.911);
 }
 .card-verde{
-    background: linear-gradient(9deg, rgba(29, 126, 29, 0.911), rgba(40, 117, 53, 0.651));
+    background: linear-gradient(9deg, rgba(197, 103, 14, 0.911), rgba(197, 103, 14, 0.911));
 }
 #titulo{
     position: absolute;
     top: 4%;
-    left: 17%;
+    left: 31%;
     
     font-size: 140px;
-    color: rgba(69, 110, 30, 0.89);
-    text-shadow: 0 0 30px #3b8347cc;
+    color: rgb(156, 57, 0);
+    text-shadow: 0 0 30px rgba(148, 48, 8, 0.842);
     z-index: 3;
     
 }
@@ -103,16 +109,19 @@ header{
    color: aliceblue;
 }
 .fotocard-c1{
+    
     border-left: solid 10px rgb(185, 100, 31);
     border-right: solid 10px rgb(192, 104, 31);
+    transform: scale(0.9);
 
     
     
 }
 .fotocard-c2{
     
-    border-left: solid 10px rgb(4, 46, 10);
-    border-right: solid 10px rgb(4, 46, 10);
+    border-left: solid 10px rgba(156, 52, 20, 0.911);
+    border-right: solid 10px rgba(156, 52, 20, 0.911);
+    
 
 }
 
@@ -121,18 +130,18 @@ header{
     margin-bottom: 20px;
 }
 p a{
-    color: rgb(136, 172, 141);
+    color: rgb(155, 36, 0);
     text-decoration: none;
 }
 a{
-    color: rgb(97, 32, 32);
+    color: rgb(248, 230, 210);
     text-decoration: none;
 }
 .img3{
-        height: 500px;
+        height: 550px;
 }
 h1{
-    margin: 38px;
+    margin: 20px;
 }
 .galeria {
     position: relative;
@@ -153,7 +162,7 @@ h1{
 }
 .galeria img:hover {
     width: 800px;
-    animation: slide 32s linear infinite; 
+    animation: slide 45s linear infinite; 
     z-index: 200;
 }
   @keyframes slide {

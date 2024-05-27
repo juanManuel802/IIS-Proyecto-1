@@ -1,12 +1,12 @@
 body{  
     position:relative;
     left: 0;
-    background-image: url("img/primaverafondopagina.jpg");
+    background-image: url("img/fondoinv.jpg");
     margin: 0;
     overflow-x:hidden;
 }
 .glass{
-   
+    
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(3px);
     
@@ -21,7 +21,7 @@ header{
 .head-list{
     display: flex;
     justify-content: space-evenly;
-   
+    
     list-style-type: none;
     padding: 20px;
     margin: 10px;
@@ -32,26 +32,30 @@ header{
     transition: transform 0.2s ease-in-out;
 }
 .divimg{
-   color: black;
+    height: max-content;
 }
 .divimg img{
     position: relative;
     
+    
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    
+    
+    
     
 }
 
 
 .card {
 
-    background: linear-gradient(9deg, rgb(223 126 46 / 52%), rgb(205 152 95 / 28%));
+    background: linear-gradient(9deg, rgb(76, 191, 236), rgb(103, 145, 223));
     backdrop-filter: blur(100px);
     box-shadow: 0 4px 12px  rgba(0, 0, 0, 0.329);
     position: relative;
-    bottom: 600px;
-    height: 40rem;
+    bottom: 450px;
+    height: 50rem;
     
     display: flex;
     justify-content: space-evenly;
@@ -65,9 +69,9 @@ header{
     width: 45%;   
     text-align: center;
     font-size: 35px;
-    color: rgb(187, 113, 43);
-    text-shadow: 0 0 4px #cf704bea;
-   
+    color: rgb(32, 129, 133);
+    text-shadow: 0 0 4px #40bce2ea;
+    
     border: solid 2px;
     border-radius: 12px;
     padding: 1px;
@@ -75,20 +79,20 @@ header{
     
 }
 #tittlecaracteristicas{
-    color: rgb(27, 95, 27);
-    text-shadow: 0 0 4px #1d572b8f;
+    color: rgb(25, 62, 104);
+    text-shadow: 0 0 4px rgb(13, 33, 56);
 }
 .card-verde{
-    background: linear-gradient(9deg, rgba(29, 126, 29, 0.911), rgba(40, 117, 53, 0.651));
+    background: linear-gradient(9deg, rgb(44, 103, 151), rgb(133, 192, 241));
 }
 #titulo{
     position: absolute;
     top: 4%;
-    left: 17%;
+    left: 25%;
     
     font-size: 140px;
-    color: rgba(69, 110, 30, 0.89);
-    text-shadow: 0 0 30px #3b8347cc;
+    color: rgba(17, 46, 58, 0.89);
+    text-shadow: 0 0 30px #97c4d6cc;
     z-index: 3;
     
 }
@@ -103,16 +107,17 @@ header{
    color: aliceblue;
 }
 .fotocard-c1{
-    border-left: solid 10px rgb(185, 100, 31);
-    border-right: solid 10px rgb(192, 104, 31);
+    border-left: solid 10px rgb(22, 80, 97);
+    border-right: solid 10px rgb(22, 80, 97);
 
     
     
 }
 .fotocard-c2{
     
-    border-left: solid 10px rgb(4, 46, 10);
-    border-right: solid 10px rgb(4, 46, 10);
+    border-left: solid 10px rgb(13, 33, 56);
+    border-right: solid 10px rgb(13, 33, 56);
+    transform: scale(1.2);
 
 }
 
@@ -121,15 +126,18 @@ header{
     margin-bottom: 20px;
 }
 p a{
-    color: rgb(136, 172, 141);
+    color: rgb(54, 13, 66);
     text-decoration: none;
 }
 a{
-    color: rgb(97, 32, 32);
+    color: rgb(189, 231, 255);
     text-decoration: none;
 }
 .img3{
+    border-left: solid 10px rgb(13, 33, 56);
+    border-right: solid 10px rgb(13, 33, 56);
         height: 500px;
+        transform: scale(1.1);
 }
 h1{
     margin: 38px;

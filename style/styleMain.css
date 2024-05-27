@@ -87,7 +87,7 @@ footer li{
     margin-right: 10px;
 }
 
-/*body {
+body {
   overflow: hidden;
 }
 
@@ -157,7 +157,7 @@ a {
 
 footer { 
 
-    ¡Para Revisión! */ 
+   color: #ffffff;
 }
 .head-list a:hover{
     transform: scale(1.2);
