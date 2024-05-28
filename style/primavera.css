@@ -1,78 +1,25 @@
 body{  
-    position:relative;
-    left: 0;
     background-image: url("img/primaverafondopagina.jpg");
-    margin: 0;
-    overflow-x:hidden;
 }
 .glass{
-   
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(3px);
-    
     border: 1px solid rgba(0, 0, 0, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.329);
 }
 header{
-    position: relative;
     background-color: rgba(158, 202, 176, 0.341);
-    z-index: 100;
-}
-.head-list{
-    display: flex;
-    justify-content: space-evenly;
-   
-    list-style-type: none;
-    padding: 20px;
-    margin: 10px;
-    font-size: 46px;
-}
-.head-list a:hover{
-    transform: scale(1.2);
-    transition: transform 0.2s ease-in-out;
 }
 .divimg{
    color: black;
 }
-.divimg img{
-    position: relative;
-    
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    
-}
-
-
 .card {
-
     background: linear-gradient(9deg, rgb(223 126 46 / 52%), rgb(205 152 95 / 28%));
-    backdrop-filter: blur(100px);
     box-shadow: 0 4px 12px  rgba(0, 0, 0, 0.329);
-    position: relative;
-    bottom: 600px;
-    height: 40rem;
-    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-    gap: 30px;
 }
-
-
 .titulo2{
-    width: 45%;   
-    text-align: center;
-    font-size: 35px;
     color: rgb(187, 113, 43);
     text-shadow: 0 0 4px #cf704bea;
-   
-    border: solid 2px;
-    border-radius: 12px;
-    padding: 1px;
     background-color: beige;
-    
 }
 #tittlecaracteristicas{
     color: rgb(27, 95, 27);
@@ -82,98 +29,30 @@ header{
     background: linear-gradient(9deg, rgba(29, 126, 29, 0.911), rgba(40, 117, 53, 0.651));
 }
 #titulo{
-    position: absolute;
-    top: 4%;
-    left: 17%;
-    
-    font-size: 140px;
     color: rgba(69, 110, 30, 0.89);
     text-shadow: 0 0 30px #3b8347cc;
-    z-index: 3;
-    
-}
-.titulo2 p{
-    padding: 4px;
-    margin: 9px;
-    text-align: center;
-    font-size: 30px;
-    text-align: justify;
 }
 .fotocard {
    color: aliceblue;
 }
-.fotocard-c1{
-    border-left: solid 10px rgb(185, 100, 31);
-    border-right: solid 10px rgb(192, 104, 31);
-
-    
-    
-}
 .fotocard-c2{
-    
     border-left: solid 10px rgb(4, 46, 10);
     border-right: solid 10px rgb(4, 46, 10);
-
-}
-
-#h1quees{
-    
-    margin-bottom: 20px;
 }
 p a{
     color: rgb(136, 172, 141);
-    text-decoration: none;
 }
 a{
     color: rgb(97, 32, 32);
-    text-decoration: none;
+
 }
-.img3{
-        height: 500px;
-}
-h1{
-    margin: 38px;
-}
-.galeria {
-    position: relative;
-    bottom: 550px;
-    width: 100vw; /* Ajusta el ancho según sea necesario */
-    overflow: hidden; /* Oculta el desbordamiento de las imágenes */
-    display: flex;
-    gap: 2px;
-  }
 .galeria img{
-    height: 600px;
-    width: 400px;
-    animation: slide 15s linear infinite; 
     border: solid .3px rgb(31, 30, 30); 
-    object-fit: cover; 
-    transition: width .4s ease;
     background: #2b302c67;
 }
-.galeria img:hover {
-    width: 800px;
-    animation: slide 32s linear infinite; 
-    z-index: 200;
-}
-  @keyframes slide {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
- 
+
   footer{
-    margin: 0 auto;
-    color: black;
-    position: relative;
-    bottom: 50px;
-    font-size: 45px;
-    line-height: 25rem;
     background-color: rgba(240, 248, 255, 0.363);
-    text-align: center;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.692);
 }
 
