@@ -1,0 +1,59 @@
+body{  
+    background-image: url("final_project\img\totalarena.jpg");
+    background: linear-gradient(45deg, rgb(190, 128, 61), rgb(182, 102, 46));
+}
+.glass{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+}
+header{
+    background-color: rgba(158, 202, 176, 0.341);
+}
+.card {
+    background: linear-gradient(9deg, rgb(223 126 46 / 52%), rgb(205 152 95 / 28%));
+}
+.titulo2{
+    color: rgb(187, 113, 43);
+    text-shadow: 0 0 4px #cf704bea;
+    background-color: beige;
+}
+#tittlecaracteristicas{
+    color: rgba(199, 142, 36, 0.911);
+    text-shadow: 0 0 4px #e48334dc;
+}
+
+.card-verde{
+    background: linear-gradient(9deg, rgba(199, 142, 36, 0.911), rgba(180, 154, 68, 0.651));
+}
+
+#titulo{
+    color: rgb(125, 255, 238);
+    text-shadow: 0 0 30px rgba(81, 247, 225, 0.842);
+}
+
+.fotocard {
+   color: aliceblue;
+}
+
+.fotocard-c2{ 
+    border-left: solid 10px rgba(151, 108, 27, 0.911);
+    border-right: solid 10px rgba(151, 108, 27, 0.911);
+}
+
+p a{
+    color: rgba(94, 67, 17, 0.911);
+}
+
+a{
+    color: rgb(36, 102, 179);
+}
+
+.galeria img{
+    background: #2b302c67;
+}
+  footer{
+    color: black;
+    background-color: rgba(240, 248, 255, 0.363);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.692);
+}
+
+  

@@ -1,0 +1,143 @@
+body{  
+    position:relative;
+    left: 0;
+    margin: 0;
+    overflow-x:hidden;
+    object-fit: cover;
+}
+.glass{
+    
+    backdrop-filter: blur(3px);
+    
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.329);
+}
+header{
+    position: relative;
+    z-index: 100;
+}
+.head-list{
+    display: flex;
+    justify-content: space-evenly;
+    
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+    font-size: 39px;
+}
+.head-list a:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+.divimg{
+    height: max-content;
+}
+.divimg img{
+    position: relative;    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.content {
+    position: relative;
+    bottom: 60vh;
+}
+
+.card {
+    box-shadow: 0 4px 12px  rgba(0, 0, 0, 0.329);
+    height: 40rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 35px;
+}
+.titulo2{
+    width: 60%; 
+    height: 35rem;  
+    text-align: center;
+    font-size: 35px;
+    
+    border: solid 2px;
+    border-radius: 12px;
+    padding: 1px;
+
+    overflow-y: auto;
+}
+
+#titulo{
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    
+    font-size: 120px;
+    z-index: 3;
+    
+}
+.titulo2 p{
+    padding: 4px;
+    margin: 9px;
+    text-align: center;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.fotocard-c2 img {
+    width: 100%;
+}
+
+#h1quees{
+    margin-bottom: 20px;
+}
+p a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.img3{
+        height: 550px;
+}
+h1{
+    margin: 20px;
+}
+.galeria {
+    width: 100vw; /* Ajusta el ancho según sea necesario */
+    overflow: auto; /* Oculta el desbordamiento de las imágenes */
+    display: flex;
+    gap: 2px;
+  }
+.galeria img{
+    height: 600px;
+    width: 400px;
+    animation: slide 15s linear infinite; 
+    border: solid .3px rgb(31, 30, 30); 
+    object-fit: cover; 
+    transition: width .4s ease;
+    background: #2b302c67;
+}
+.galeria img:hover {
+    width: 800px;
+   
+    z-index: 200;
+}
+  /* @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */
+ 
+  footer{
+    margin: 0 auto;
+    color: black;
+    position: relative;
+    bottom: 50px;
+    font-size: 45px;
+    line-height: 25rem;
+    text-align: center;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.692);
+}
+
+  

@@ -1,0 +1,62 @@
+body{  
+    background: linear-gradient(45deg, darkblue, aliceblue);
+}
+.glass{ 
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.329);
+}
+header{
+    background-color: rgba(158, 202, 176, 0.341);
+}
+.card {
+    background: linear-gradient(9deg, rgb(76, 191, 236), rgb(103, 145, 223));
+    box-shadow: 0 4px 12px  rgba(0, 0, 0, 0.329);
+}
+.titulo2{
+    color: rgb(32, 129, 133);
+    text-shadow: 0 0 4px #40bce2ea;
+    background-color: beige;
+}
+#tittlecaracteristicas{
+    color: rgb(25, 62, 104);
+    text-shadow: 0 0 4px rgb(13, 33, 56);
+}
+.card-verde{
+    background: linear-gradient(9deg, rgb(44, 103, 151), rgb(133, 192, 241));
+}
+#titulo{
+    color: rgba(17, 46, 58, 0.89);
+    text-shadow: 0 0 30px #97c4d6cc;    
+}
+.fotocard {
+   color: aliceblue;
+}
+.fotocard-c1{
+    border-left: solid 10px rgb(22, 80, 97);
+    border-right: solid 10px rgb(22, 80, 97);    
+}
+.fotocard-c2{
+    border-left: solid 10px rgb(13, 33, 56);
+    border-right: solid 10px rgb(13, 33, 56);
+}
+p a{
+    color: rgb(54, 13, 66);
+}
+a{
+    color: rgb(189, 231, 255);
+}
+.img3{
+    border-left: solid 10px rgb(13, 33, 56);
+    border-right: solid 10px rgb(13, 33, 56);
+}
+.galeria img{
+    border: solid .3px rgb(31, 30, 30); 
+    background: #2b302c67;
+} 
+  footer{
+    background-color: rgba(240, 248, 255, 0.363);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.692);
+}
+
+  

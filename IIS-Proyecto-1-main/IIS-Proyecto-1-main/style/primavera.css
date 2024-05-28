@@ -1,0 +1,59 @@
+body{  
+    background-image: url("img/primaverafondopagina.jpg");
+}
+.glass{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.329);
+}
+header{
+    background-color: rgba(158, 202, 176, 0.341);
+}
+.divimg{
+   color: black;
+}
+.card {
+    background: linear-gradient(9deg, rgb(223 126 46 / 52%), rgb(205 152 95 / 28%));
+    box-shadow: 0 4px 12px  rgba(0, 0, 0, 0.329);
+}
+.titulo2{
+    color: rgb(187, 113, 43);
+    text-shadow: 0 0 4px #cf704bea;
+    background-color: beige;
+}
+#tittlecaracteristicas{
+    color: rgb(27, 95, 27);
+    text-shadow: 0 0 4px #1d572b8f;
+}
+.card-verde{
+    background: linear-gradient(9deg, rgba(29, 126, 29, 0.911), rgba(40, 117, 53, 0.651));
+}
+#titulo{
+    color: rgba(69, 110, 30, 0.89);
+    text-shadow: 0 0 30px #3b8347cc;
+}
+.fotocard {
+   color: aliceblue;
+}
+.fotocard-c2{
+    border-left: solid 10px rgb(4, 46, 10);
+    border-right: solid 10px rgb(4, 46, 10);
+}
+p a{
+    color: rgb(136, 172, 141);
+}
+a{
+    color: rgb(97, 32, 32);
+
+}
+.galeria img{
+    border: solid .3px rgb(31, 30, 30); 
+    background: #2b302c67;
+}
+
+  footer{
+    background-color: rgba(240, 248, 255, 0.363);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.692);
+}
+
+  
